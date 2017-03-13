@@ -1,0 +1,87 @@
+\documentclass[a4paper, oneside]{book}
+\usepackage{jipkg}
+
+%few ipa symbols
+\newcommand{\ipaE}{ε}
+\newcommand{\ipaET}{ɛ̃}
+\newcommand{\ipaO}{ɔ}
+\newcommand{\ipaAT}{ɑ̃}
+\newcommand{\ipaS}{ʃ}
+\newcommand{\ipaZ}{ʒ}
+\newcommand{\ipaR}{ʁ}
+
+%glossary
+\usepackage[toc]{glossaries}
+\newcommand{\newgle}[2]{\newglossaryentry{#1}{name=#1, description={#2}}}
+\glossarystyle{listgroup}
+\makeglossaries
+
+\title{The Dearean Language}
+\author{Jirsad \textsc{Ïoh}}
+\date{2016 — \today}
+\jihypersetup{The Dearean Language}{Jirsad ÏOH}
+
+\begin{document}
+\selectlanguage{english}
+\frontmatter
+\maketitle
+\tableofcontents
+\jichap{Introduction}
+
+\mainmatter
+\jichap{Phonology}
+\input{phonology/phonology}
+
+\jichap{Morphology}
+\jisec{Nouns}
+\jisec{Noun classes}
+\jisec{Number}
+\jisec{Personal suffixes}
+\jissec{Definite}
+\jissec{Indefinite}
+\jissec{Demonstrative}
+\jissec{Genitive}
+\jisssec{Owner}
+\jisssec{Distinct}
+\jisec{Adjective}
+\jisec{Adpositions}
+
+\jichap{Conjugation}
+\jisec{Tense}
+\jissec{Present}
+\jissec{Past}
+\jissec{Future}
+\jisec{Mood}
+\jissec{Indicative}
+\jissec{Participle}
+\jissec{Interrogative}
+\jissec{Subjunctive}
+\jissec{Imperative}
+\jisec{Aspect}
+\jissec{Perfect/Imperfect}
+\jissec{Cessative/Inchoative}
+\jisec{The Copula}
+
+\jichap{Syntax}
+\jisec{Noun phrase}
+\jisec{Sentence}
+\jissec{Basic order}
+\jissec{Questions}
+\jissec{Imperatives}
+\jisec{Subclauses}
+\jisec{Existentials}
+
+\jichap{Pragmatics}
+\jisec{Sayings}
+\jisec{Samples}
+\jissec{Ëj un naklë’ùr dësish’rù — The King of All Snakes}
+\newgle{naklë}{serpent}
+
+\backmatter
+\input{swadesh}
+\clearpage\glsaddall
+\begin{multicols}{2}\printglossaries\end{multicols}
+\listoffigures
+\listoftables
+\listoftodos
+\end{document}

@@ -1,0 +1,7 @@
+This is makeindex, version 2.15 [TeX Live 2014] (kpathsea + Thai support).
+Scanning style file ./deareanGrammar.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file deareanGrammar.glo....done (204 entries accepted, 0 rejected).
+Sorting entries.....done (1656 comparisons).
+Generating output file deareanGrammar.gls....done (434 lines written, 0 warnings).
+Output written in deareanGrammar.gls.
+Transcript written in deareanGrammar.glg.

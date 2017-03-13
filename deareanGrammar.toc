@@ -1,0 +1,48 @@
+\select@language {french}
+\select@language {english}
+\contentsline {chapter}{\sffamilyFB {Introduction}}{iii}{chapter*.2}
+\contentsline {chapter}{\numberline {1}\sffamilyFB {Phonology}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\sffamilyFB {Consonants}}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}\sffamilyFB {Vowels}}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}\sffamilyFB {Phonotactics}}{1}{section.1.3}
+\contentsline {chapter}{\numberline {2}\sffamilyFB {Morphology}}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}\sffamilyFB {Nouns}}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}\sffamilyFB {Noun classes}}{2}{section.2.2}
+\contentsline {section}{\numberline {2.3}\sffamilyFB {Number}}{2}{section.2.3}
+\contentsline {section}{\numberline {2.4}\sffamilyFB {Personal suffixes}}{2}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}\sffamilyFB {Definite}}{2}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}\sffamilyFB {Indefinite}}{2}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}\sffamilyFB {Demonstrative}}{2}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}\sffamilyFB {Genitive}}{2}{subsection.2.4.4}
+\contentsline {subsubsection}{\sffamilyFB {Owner}}{2}{section*.3}
+\contentsline {subsubsection}{\sffamilyFB {Distinct}}{2}{section*.4}
+\contentsline {section}{\numberline {2.5}\sffamilyFB {Adjective}}{2}{section.2.5}
+\contentsline {section}{\numberline {2.6}\sffamilyFB {Adpositions}}{2}{section.2.6}
+\contentsline {chapter}{\numberline {3}\sffamilyFB {Conjugation}}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}\sffamilyFB {Tense}}{3}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}\sffamilyFB {Present}}{3}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}\sffamilyFB {Past}}{3}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}\sffamilyFB {Future}}{3}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}\sffamilyFB {Mood}}{3}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\sffamilyFB {Indicative}}{3}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\sffamilyFB {Participle}}{3}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}\sffamilyFB {Interrogative}}{3}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}\sffamilyFB {Subjunctive}}{3}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}\sffamilyFB {Imperative}}{3}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}\sffamilyFB {Aspect}}{3}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}\sffamilyFB {Perfect/Imperfect}}{3}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}\sffamilyFB {Cessative/Inchoative}}{3}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}\sffamilyFB {The Copula}}{3}{section.3.4}
+\contentsline {chapter}{\numberline {4}\sffamilyFB {Syntax}}{4}{chapter.4}
+\contentsline {section}{\numberline {4.1}\sffamilyFB {Noun phrase}}{4}{section.4.1}
+\contentsline {section}{\numberline {4.2}\sffamilyFB {Sentence}}{4}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}\sffamilyFB {Basic order}}{4}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}\sffamilyFB {Questions}}{4}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}\sffamilyFB {Imperatives}}{4}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}\sffamilyFB {Subclauses}}{4}{section.4.3}
+\contentsline {section}{\numberline {4.4}\sffamilyFB {Existentials}}{4}{section.4.4}
+\contentsline {chapter}{\numberline {5}\sffamilyFB {Pragmatics}}{5}{chapter.5}
+\contentsline {section}{\numberline {5.1}\sffamilyFB {Sayings}}{5}{section.5.1}
+\contentsline {section}{\numberline {5.2}\sffamilyFB {Samples}}{5}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}\sffamilyFB {Ëj un naklë’ùr dësish’rù — The King of All Snakes}}{5}{subsection.5.2.1}
+\contentsline {chapter}{Glossary}{6}{section*.5}
