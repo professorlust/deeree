@@ -1,6 +1,6 @@
 #LaTeX Dearean Grammar Makefile
 
-NAME = deareanGrammar
+NAME = deeree
 
 all:
 	xelatex ${NAME}.tex
