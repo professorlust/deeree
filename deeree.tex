@@ -1,5 +1,6 @@
 \documentclass[a4paper, oneside]{book}
 \usepackage{jipkg}
+\usepackage{multirow}
 
 %few ipa symbols
 \newcommand{\ipaE}{ε}
@@ -16,6 +17,9 @@
 \glossarystyle{listgroup}
 \makeglossaries
 
+%gloss and examples
+\usepackage{gb4e}
+
 \title{Deẽreẽ\\Grammar of a fantasy constructed language}
 \author{Jirsad \textsc{Ïoh}}
 \date{2016 — \today}
@@ -27,36 +31,28 @@
 \maketitle
 \tableofcontents
 \jichap{Introduction}
+\begin{exe}
+\ex\label{ex:intro-cat}
+\gll mosoj’a fãssa eat a\\
+cat-3S wizard 3S.INDEF 3S\\
+\trans ‘The cat is a wizard’
+\end{exe}
+
+In example \ref{ex:intro-cat}, we see that blah blah blah…
 \todo{fig:glossing abbreviations}
 
 \mainmatter
-\jichap{Phonology}
+\jichap{Phonology}\label{chap:phonology}
 \input{phonology/phonology}
 
-\jichap{Morphology}
+\jichap{Morphology}\label{chap:morphology}
 This chapter, morphology, aims to describe \emph{what the words look like}. This means describing
-the nouns, adjectives, adverbs, verbs in their basic forms. Details though will be about personal
+the nouns, adjectives, adverbs, verbs in their basic forms. Details though will be about person
 suffixes, Deẽreẽ’s equivalent for articles.
 
 \input{morphology/gender}
 \input{morphology/number}
-\jisec{Personal suffixes}
-They do not agree with the word they’re on. They agree with what they refer to, which actually often
-\emph{is} the word they’re on.
-\jissec{Definite}
-Just put it there.
-
-’e
-\jissec{Indefinite}
-et/eat/eùt
-\jissec{Demonstrative}
-’me/’asme
-\jissec{Genitive}
-’re
-\jisssec{Owner}
-todel’rẽi
-\jisssec{Distinct}
-ëj adal’e ãblẽi’re
+\input{morphology/personSuffixes}
 \jisec{Adjective}
 before: all, no suffix
 
@@ -66,7 +62,7 @@ post-positions a lot
 
 pre-positions with stuff.
 
-\jichap{Conjugation}
+\jichap{Conjugation}\label{chap:conjugation}
 \jisec{Tense}
 \jissec{Present}
 et
@@ -95,7 +91,7 @@ first suffix repetition
 
 Mosoj’a fãssa eat’a. => the cat is a wizard.
 
-\jichap{Syntax}
+\jichap{Syntax}\label{chap:syntax}
 \jisec{Noun phrase}
 \jisec{Sentence}
 \jissec{Basic order}
@@ -106,7 +102,7 @@ Vf
 \jisec{Existentials}
 at
 
-\jichap{Pragmatics}
+\jichap{Pragmatics}\label{chap:pragmatics}
 \jisec{Sayings}
 \jisec{Samples}
 \input{pragmatics/samples/theKingOfAllSnakes}
@@ -116,7 +112,7 @@ at
 %\input{appendices/swadesh}
 \clearpage\glsaddall
 \begin{multicols}{2}\printglossaries\end{multicols}
-\listoffigures
-\listoftables
+\listoffigures\addcontentsline{toc}{chapter}{\listfigurename}
+\listoftables\addcontentsline{toc}{chapter}{\listtablename}
 \listoftodos
 \end{document}
