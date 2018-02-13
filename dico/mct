@@ -1,0 +1,99 @@
+#!/bin/python3
+import random;
+import sys;
+import copy;
+import re;
+from pprint import pprint;
+
+# Paramètres
+params = {};
+
+cons1s = 'm n p pr t tr k kr f s sh l r'.split();
+cons1p = 'm n b br d dr g gr v z zh r'.split();
+params['cons1s'] = ' '.join(cons1s);
+params['cons1p'] = ' '.join(cons1p);
+
+consL = 'l r s'.split();
+params['consL'] = ' '.join(consL);
+
+voye1 = 'e ẽ u a ã o ü ë i'.split();
+params['voye1'] = ' '.join(voye1);
+
+voye2 = 'ii ai ẽi ëi oi'.split();
+params['voye2'] = ' '.join(voye2);
+
+def chouhat(pos, pds = 'uniforme'):
+    # Choisit aléatoirement une des possibilités dans pos, leur poids étant défini dans pds.
+    if pds == 'uniforme':
+        return random.choice(pos);
+    
+    n = random.uniform(0, sum(pds));
+    u = 0;
+    i = 0;
+    while True:
+        u += pds[i];
+        if u > n:
+            break;
+        i += 1;
+    return pos[i];
+
+def syllabe(prec='-'):
+    # Génération de syllabe. prec est la syllabe précédente
+        # onset
+    syll = ''
+    syll += chouhat(\
+        chouhat([\
+            cons1s+cons1p,\
+            ['']\
+        ], [70, 30])\
+    );
+        # rhyme
+    weight = chouhat(['light', 'heavy']);
+    if weight == 'light':
+        syll += chouhat(voye1);
+    else:
+        if chouhat(['diph', 'coda']) == 'diph':
+            syll += chouhat(voye2);
+        else:
+            syll += chouhat(voye1);
+            syll += chouhat(consL);
+    return syll;
+
+def mot(nb_syll):
+    # Génère un mot par concaténation de syllabes
+    mot_retour = [syllabe()];
+    nb_syll -= 1;
+    while nb_syll > 0:
+        nb_syll -= 1;
+        mot_retour += [syllabe(mot_retour[-1])];
+    mot_retour = ''.join(mot_retour);
+    #if (mot_retour[-2:] not in voye2) and (mot_retour[-1] not in consL):
+    #    mot_retour += chouhat(chouhat([cons1s, ['']]));
+    return mot_retour;
+
+# Éxecution
+if len(sys.argv) >= 2 and sys.argv[1] in ['--params', '-p']:
+    # Affichage des paramètres
+    pprint(params);
+elif len(sys.argv) >= 3 and sys.argv[1] in ['--test', '-t']:
+    # Test de validité d’un mot transmis en argument
+    aTester = sys.argv[2].lower();
+    onset_pattern     = '(' + '|'.join(cons1s+cons1p) + ')';
+    diph_pattern      = '(' + '|'.join(voye2)         + ')';
+    voye1_pattern     = '(' + '|'.join(voye1)         + ')';
+    links_pattern     = '(' + '|'.join(consL)         + ')';
+    sing_cons_pattern = '(' + '|'.join(cons1s)        + ')';
+    pattern = '^(' + onset_pattern + '?(' + diph_pattern + '|(' + voye1_pattern + links_pattern + '?)))*'\
+        + '(' + onset_pattern + '?(' + diph_pattern + '|(' + voye1_pattern + sing_cons_pattern + '?)))$';
+    if re.match(pattern, aTester):
+        print('valide');
+    else:
+        print('invalide');
+else:
+    # Génération de mots
+    nb_syll = 3  if len(sys.argv) == 1 else int(sys.argv[1]);
+    nb_mot  = 20 if len(sys.argv) <= 2 else int(sys.argv[2]);
+    for i in range(nb_mot):
+        m = mot(1+chouhat(range(nb_syll)));
+        print(m);
+

@@ -1,0 +1,60 @@
+#!/bin/bash
+#Gestion du dictionnaire du Deẽreẽ
+
+dicof="${HOME}/Documents/art/reosal/dico"
+
+if [ -z "$1" ]
+then
+	total="$(wc -l < "${dicof}")"
+	
+	echo "Dictionnaire du Deẽreẽ : ${total} mots"
+	echo
+	shuf -n 5 "${dicof}"
+elif [ "$1" == '-h' ]
+then
+	echo
+	echo 'ddr + deẽreẽ français : ajouter un mot'
+	echo 'ddr f|F français      : français -> deẽreẽ'
+	echo 'ddr d|D deẽreẽ        : deẽreẽ -> français'
+	echo 'ddr a : afficher le contenu'
+	echo 'ddr r : afficher la répartition A-Z'
+	echo 'ddr c : afficher le chemin'
+	exit 0
+elif [ "$1" == '+' ] && [ -n "$2" ] && [ -n "$3" ]
+then
+	echo "${2}; ${3}" >> "${dicof}"
+	if [ "$(mct -t "${2}")" == 'invalide' ]
+	then
+		echo 'Le mot enregistré est invalide.'
+	fi
+	exit 0
+elif [ "$1" == 'd' ] && [ -n "$2" ]
+then
+	egrep "^[^;]*${2}[^;]*; [^;]+$" < "${dicof}" | sort -t ";" -k 1
+	exit 0
+elif [ "$1" == 'D' ] && [ -n "$2" ]
+then
+	egrep "^${2}; [^;]+$" < "${dicof}" | sort -t ";" -k 1
+	exit 0
+elif [ "$1" == 'f' ] && [ -n "$2" ]
+then
+	egrep "^[^;]+; [^;]*${2}[^;]*$" < "${dicof}" | sort -t ";" -k 2
+	exit 0
+elif [ "$1" == 'F' ] && [ -n "$2" ]
+then
+	egrep "^[^;]+; ${2}$" < "${dicof}" | sort -t ";" -k 2
+	exit 0
+elif [ "$1" == 'a' ]
+then
+	less "${dicof}"
+	exit 0
+elif [ "$1" == 'r' ]
+then
+	egrep "; " < "${dicof}" | cut -d"; " -f1 | colrm 2 | sort | uniq -c | sort -nrk 1
+	exit 0
+elif [ "$1" == 'c' ]
+then
+	echo "${dicof}"
+	exit 0
+fi
+

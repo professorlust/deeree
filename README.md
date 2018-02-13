@@ -1,7 +1,7 @@
 # Deẽreẽ
 
 The _Deẽreẽ_, is a constructed language of my invention.
-Its purpose is to represent the speech of the _Kingdom of Réosalle_, a fantasy
+Its purpose is to represent the speech of the _Kingdom of Reosal_, a fantasy
 world setting originally designed for a tabletop roleplaying game.
 
 Five interesting features of this language are as follows:
