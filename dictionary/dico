@@ -1,6 +1,7 @@
 fete; boire
 eltol; oiseau
 zeẽ; ville, 1728 12^3 (nombre)
+zeẽket; maire (ville)
 tor; montagne
 sãs; arbre
 ãsta; océan
@@ -14,6 +15,7 @@ nãilata; chanter
 ẽi; personne
 nalko; serpent
 kütü; voir
+küsën; attention, prudence
 sabrete; écouter
 assi; lumière
 pitëk; mangrove
@@ -25,9 +27,10 @@ senü; poisson
 koshã; foncé
 kerpo; jaune
 karo; mauve
-lifo; rouge
+lif; rouge
 suifi; vert
 lëlü; grand
+lëlfütü; grandir
 leün; charrette
 tis; lieu
 samis; lac
@@ -56,6 +59,9 @@ kel; chose
 zükoi; plante
 un; tout
 kidren; noblesse
+kueste; noble
+tisun; monde, royaume
+tisket; roi, reine
 zhok; sang
 ẽipata; captiver
 tã; FUT
@@ -76,11 +82,10 @@ vin; gauche
 vëpi; droite
 lüsh; avec (instrumental, conjonction)
 zhalbraki; bière
-pëgrusti; taverne
+fetis; taverne
 ẽitii; chope
 eleãt; étoile
 vagrẽl; épée
-fãssa; sorcier
 napãot; esprit
 edan; rivière
 noshi; ciel
@@ -94,9 +99,8 @@ grãrvë; pourri
 omëit; fumée
 tãüi; nuit
 oimata; prédire
-tokel; mère
+todel; mère
 ẽiuk; père
-nibrete; mourir
 pük; bâton
 lëshil; sable
 zheo; fée
@@ -123,8 +127,8 @@ zhetiütü; sentir (odorat)
 parata; craindre
 mato; près
 udi; loin
-as; honorifique (préfixe)
-ël; augmentatif (préfixe)
+as-; honorifique (préfixe)
+ël-; augmentatif (préfixe)
 ashëi; temple, église
 brasütü; mordre
 ëvata; dormir
@@ -150,10 +154,10 @@ assete; éclairer
 nãnã; mille-pattes
 forfof; désert
 ortu; direction
-ortiis; sud
-ortaal; nord
-ortor; est
-ortãas; ouest
+ãsort; nord
+torort; sud
+aalort; est
+iisort; ouest
 mosoi; chat
 esërof; soleil
 unun; pou
@@ -164,6 +168,7 @@ lakẽil; corde
 zhëmin; beaucoup
 oko; quelques
 oine; peu
+on-; diminutif (préfixe)
 aü; petit
 tülzhüp; lourd
 shuko; brouillard
@@ -197,15 +202,18 @@ iriata; brûler
 aãtël; ruines
 sogul; épine
 dekete; écrire
+dekür; écrit (substantif)
 nërete; dire
 dreer; froid
 ultës; dos
 pëgrip; foie
 shazha; cœur (organe)
 urlil; cou
-zafeata; laver
+zaf; propre
+zafütü; laver, rendre propre
 shütü; jouer (s’amuser)
-pëili; herbe
+pël; herbe
+pëltis: jardin
 umish; queue (d’un animal)
 tes; long (espace)
 vüãp; long (temps)
@@ -221,8 +229,8 @@ aiãdral; an, année
 piskete; jeter, lancer
 kal; œil
 tëfuete; frotter
-zhofozhütü; pousser
-ülëdan; blanc
+fütü; pousser, faire devenir
+üt; blanc
 but; épais
 suzü; nez
 popiete; essuyer
@@ -252,13 +260,13 @@ izher; dans (inessif, postposition)
 ãbin; parce que (cause, conjonction)
 zhin; donc, alors (conséquence, conjonction)
 aran; magie
+aranẽi; mage
 treãk; anneau
 ãgrete; diriger (autorité)
+ãgresën: autorité (caractère)
 ãboete; trouver
-dësish; roi
 breiãn; pouvoir (nom)
 kënak; palais, 20736 12^4 (nombre)
-dësistis; royaume
 oshevashor; pute
 magra; âme
 kësen; ami
@@ -266,7 +274,6 @@ tasẽi; lanterne
 üzhal; livre
 kretül; taupe
 ütanak; poussière blanche, poussière d’âme
-irporil; âge
 ligol; malédiction
 ralata; hanter
 müo; matériel
@@ -286,7 +293,7 @@ irsata; enchanter
 mẽiüf; brique
 mirkos; pierre précieuse
 ebor; ennuyeux
-rash; sans
+rash; sans (privatif, postposition)
 zelütü; travailler (aux champs)
 pẽiku; toit
 gefa; beau
@@ -296,6 +303,8 @@ niis; confort
 ẽito; vrai
 trata; lire
 shopot; bœuf
+beet; mouton
+beesket; berger
 gãl; sculpture
 varkẽ; guerre
 meshoütü; entrer
@@ -332,6 +341,7 @@ sika; défaite
 naldrete; parcourir
 retre; chaise
 shëskata; séduire
+shëskasën: charisme
 dartik; soc
 kenütü; courir (animal)
 sek; merde
@@ -341,9 +351,11 @@ gon; monstre
 sẽil; charisme
 lu/lo/li; interrogatif, question (particule)
 poril; temps
+irporil; durée, âge
 lila; type (abstrait)
 gẽit; dictateur
 lül; village, 144 12^2 (nombre)
+lülket; maire (village)
 imof; moment
 shëvü; réussite, succès
 ëki; échec
@@ -357,16 +369,15 @@ aüs; écailles, exuvie, mue
 zhasak; brillant
 ëldan; fleuve
 füã; poudre
-kueste; noble
 ëldanata; couler (cours d’eau), passer (temps)
-kup; haut
+eo; haut
 noi; bas
 naoütü; descendre
 edartis; lit (cours d’eau)
 vüpën; très long (temps/espace)
 marü; nature
 ãda; rose (fleur)
-ãdafa; belle (femme)
+ãdasho; belle (femme)
 bre; laid
 epan; mignon
 bredil; ronces
@@ -377,18 +388,18 @@ loishë; histoire
 ashë; conte
 bapete; mentir
 bapẽl; mensonge
-tomet; apparence
+tomete; ressembler, avoir l’air
+tomür; apparence
 zolül; champ
 zere; nourriture
+zerete; nourrir
 zholish; céréale
 ülo; fourrure
 ülkete; porter (vêtement)
 magrẽi; objectif
 sishëi; phare
-ẽishãl; magasin
 uf; chemin
 volü; allée
-vaneete; nourir
 kidesta; oppresseur
 mëlük; manteau
 lüka; parure
@@ -408,10 +419,10 @@ gira; encore, à nouveau
 ron; sur (superessif, postposition)
 tresh; important
 vana; mort
+vanata; mourir
 ëlët; avant (temps, postposition)
 dür; après (temps, postposition)
 ir; pendant (temps, postposition)
-irporil; durée
 mëiütü; pleurer
 mëi; larme
 sho; identique, pareil (adjectif, adverbe, comparaison)
@@ -423,11 +434,15 @@ feri; pénis (sexe masculin)
 ne; hors (ablatif, postposition)
 kori; or (métal précieux, monnaie)
 korütü; acheter (monnaie)
+kortis; magasin, commerce
+onkortis; boutique, petit commerce, étal de marché
+kortisket; commerçant
 lümütü; rencontrer, croiser qqn
 va; mais (contradiction, conjonction)
 onütü; pouvoir (verbe)
 soi; sûr
-dẽre; frère
+dẽre; sœur
+fove; frère
 poi; amusant, drôle
 zenai; son
 nursu; ennemi
@@ -443,10 +458,10 @@ ramo; malheur
 -eu/-aã/-üi; participe (PTCP, verbe)
 -ẽi/-oi/-ëi; passé (PST, verbe)
 sëlete; préparer
-ramoata; faire mal, endommager
-tisun; monde
+ramata; faire mal, endommager
+ramür; douleur
 o; chaque (distributif)
-dren; pour
+dren; pour (but, objectif, conjonction)
 bakë; canard
 sekete; chier
 takatütü; applaudir
@@ -467,8 +482,16 @@ tol; 8 huit (nombre)
 kani; 9 neuf (nombre)
 üma; 10 dix (nombre)
 moi; 11 onze (nombre)
-tras; merci
+aso’el; merci (vous êtes bon)
+lii eüt nal rar; de rien (pas plus qu’un autre)
 nobël; heure
 esir; minute
 garai; peut-être
 debete; être indifférent à, se ficher de
+val; sous (subessif, postposition)
+noshëia; esprit sacré (montagne, arbre, océan, étoile, oiseau, rivière)
+pis; prairie, pré
+zhapis; marais
+koshëi; petite ville
+dos; île
+dosi; autour (postposition)
